@@ -21,6 +21,7 @@ Based on a [Formbot kit](https://www.formbot3d.com/products/voron-trident-r1-pro
 * [Phaetus Rapido Hotend HF](https://www.phaetus.com/products/rapido-hotend) with a hardened steel nozzle.
 * -> currently building A4T
 * [Nozzle brush](https://www.printables.com/model/1200625-voron-trident-nozzle-brush-and-park) using a silicone brush.
+* PT1000 (2 wires) as chamber thermistor.
 
 ### ⚡ Electronics Bay
 
