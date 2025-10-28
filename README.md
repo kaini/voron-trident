@@ -17,11 +17,16 @@ Based on a [Formbot kit](https://www.formbot3d.com/products/voron-trident-r1-pro
 
 ### 🔥 Toolhead
 
+* [XOL carriage](https://github.com/Armchair-Heavy-Industries/Xol-Toolhead)
+* [A4T toolhead](https://github.com/Armchair-Heavy-Industries/A4T/)
+* [WWBMG extruder](https://github.com/Armchair-Heavy-Industries/A4T/blob/main/STL/WW-BMG%20for%20A4T/README.md)
+* [EBB36 toolboard](https://bttwiki.com/EBB%2036%20CAN.html)
+* [Phaetus Rapido Hotend 2 HF](https://www.phaetus.com/products/rapido2) with a hardened steel nozzle and an 104NT thermistor.
 * [Cartographer v3 with adxl345](https://cartographer3d.com/products/cartographer-probe-v3-with-adxl345-standard) for bed meshing and Z homing.
-* [Phaetus Rapido Hotend HF](https://www.phaetus.com/products/rapido-hotend) with a hardened steel nozzle.
-* -> currently building A4T
 * [Nozzle brush](https://www.printables.com/model/1200625-voron-trident-nozzle-brush-and-park) using a silicone brush.
 * PT1000 (2 wires) as chamber thermistor.
+
+Wiring diagram for the toolhead: ![](toolhead1.png)
 
 ### ⚡ Electronics Bay
 
@@ -48,7 +53,7 @@ Based on a [Formbot kit](https://www.formbot3d.com/products/voron-trident-r1-pro
 * Secondary color: Blue (Polymaker PolyLite ASA Blue, PIF parts SUNLU ABS Blue)
 * Tertiary color: Teal (Polymaker PolyLite ASA Teal)
 * Generic LED bar in the back.
-* Generic 5" touch screen with [appropriate mount](https://www.printables.com/model/926845-btt-hdmi5-v12-display-mount-voron).
+* Generic 5" touch screen with an [appropriate mount](https://www.printables.com/model/926845-btt-hdmi5-v12-display-mount-voron).
 
 ### 🫘 Misc
 
@@ -93,7 +98,6 @@ I saved the unit file in `/etc/systemd/system/turn-power-off.service` and then i
 ## 📋 TODO
 
 * Either an MMU or toolchanger or both.
-* A4T with WWBMG
 * Better camera (more FOV)
 * I don't like the front door.
 * StealthMax V2 and better bed fans.
