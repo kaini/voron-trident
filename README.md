@@ -25,6 +25,8 @@ Based on a [Formbot kit](https://www.formbot3d.com/products/voron-trident-r1-pro
 * [Cartographer v3 with adxl345](https://cartographer3d.com/products/cartographer-probe-v3-with-adxl345-standard) for bed meshing and Z homing.
 * [Nozzle brush](https://www.printables.com/model/1200625-voron-trident-nozzle-brush-and-park) using a silicone brush.
 * PT1000 (2 wires) as chamber thermistor.
+* Hotend fan: 4010 blower fan: GDStime 12,000 RPM 24v
+* Part cooling fans: 2510 axial fan: Gdstime GDA2510 / Gdt2510S12B, Dual Ball Bearing, 24V
 
 Wiring diagram for the toolhead: ![](docs/toolhead1.png)
 
@@ -37,9 +39,9 @@ Wiring diagram for the toolhead: ![](docs/toolhead1.png)
 * Generic AC heater for heated bed with fuse @ 125 °C.
 * Everything is organized (more or less) with [FT EMS](https://www.printables.com/model/647107-ft-ems-trident-300-electronics-management-system) and tons of cable ties.
 * Motors
-    * A/B: 2x MOONS' MS17HD6P420I-04
-    * Z: 3x MOONS' LE172S-T0804-300-CN-01-200
-    * Extruder: 1x MOONS' CSE14HRA1L410A
+    * A/B: 2x [MOONS' MS17HD6P420I-04](docs/moons-MS17HD6P420I-04.png)
+    * Z: 3x [MOONS' LE172S-T0804-300-CN-01-200](docs/moons-LE172S-T0804-300-CN-01-200.png)
+    * Extruder: 1x [MOONS' CSE14HRA1L410A](docs/moons-CSE14HRA1L410A.png)
 
 ### 💨 Air quality
 
