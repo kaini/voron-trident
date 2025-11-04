@@ -1,4 +1,4 @@
-# VT.XXXX - 300x300x250 Voron Trident
+# VT.2112 - 300x300x250 Voron Trident
 
 Based on a [Formbot kit](https://www.formbot3d.com/products/voron-trident-r1-pro-corexy-3d-printer-kit-with-best-quality-parts?VariantsId=10505) with printed components from a kind PIF provider.
 
