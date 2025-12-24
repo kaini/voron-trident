@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euxo pipefail
 
+sudo systemctl stop klipper
+
 pushd ~/klipper
 
 make clean
@@ -12,3 +14,5 @@ make menuconfig KCONFIG_CONFIG=/home/michael/printer_data/config/m8p.config
 make -j$(nproc) KCONFIG_CONFIG=/home/michael/printer_data/config/m8p.config
 
 popd
+
+sudo systemctl start klipper
