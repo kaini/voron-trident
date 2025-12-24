@@ -12,7 +12,7 @@ Based on a [Formbot kit](https://www.formbot3d.com/products/voron-trident-r1-pro
 * Screw torques: M3 0.35 Nm, M5 0.7 Nm, blind joints 1 Nm. Dito.
 * Umbilical management with [PUG](https://www.printables.com/model/378567-pug-parametric-umbilical-gland/files)s and a [guide arm](https://www.printables.com/model/978123-voron-bowden-ptfe-tube-guide-arm-and-canbus-cable).
     * [PUG attachment for A drive](https://www.printables.com/model/469241-voron-trident-pug-parametric-umbilical-gland-attac)
-    * [PUG mount for SB2209](https://www.printables.com/model/825825-sb2209-sb2240-mount-for-pug-new-plug)
+    * [PUG mount for WWBMG/EBB36](https://www.printables.com/model/1158928-wwbmg-ebb36nh36-pug-mount)
 * [Beefy Front Idlers](https://github.com/clee/VoronBFI) with [BFI Gears](https://github.com/Diyshift/3D-Printer/tree/main/BFI%20Gears) instead of the stock idlers.
 
 ### 🔥 Toolhead
@@ -96,6 +96,10 @@ WantedBy=multi-user.target
 ```
 
 I saved the unit file in `/etc/systemd/system/turn-power-off.service` and then it can be enabled with `sudo systemctl enable turn-power-off.service`. If this command does not work right away you have to run `sudo systemctl deamon-reload` before. **Remember to change the path to the script!**
+
+### Update script
+
+There is an update script at `[docs/update.sh](docs/update.sh)`.
 
 ## 📋 TODO
 
