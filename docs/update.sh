@@ -15,7 +15,7 @@ make clean
 make menuconfig KCONFIG_CONFIG=/home/michael/printer_data/config/m8p.config
 make -j$(nproc) KCONFIG_CONFIG=/home/michael/printer_data/config/m8p.config
 python3 ~/katapult/scripts/flashtool.py -i can0 -r -u acad98aaf678
-
+python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-katapult_acad98aaf678
 
 popd
 
