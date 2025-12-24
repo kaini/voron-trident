@@ -99,7 +99,7 @@ I saved the unit file in `/etc/systemd/system/turn-power-off.service` and then i
 
 ### Update script
 
-There is an update script at `[docs/update.sh](docs/update.sh)`.
+There is an update script at [docs/update.sh](docs/update.sh).
 
 ## 📋 TODO
 
